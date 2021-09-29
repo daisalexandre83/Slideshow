@@ -23,6 +23,7 @@ header{
 }
 .slider--item{
     width: 100vw;
+    height: inherit;
     background-position: center;
     background-size: cover;
 }
@@ -35,10 +36,11 @@ header{
     align-items: center;
 }
 .slider--control{
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
     background-color: #fff;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
     border-radius: 50%;
+    cursor: pointer;
 }
 
