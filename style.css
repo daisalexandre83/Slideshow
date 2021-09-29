@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.header{
+    height: 50px;
+    background-color: red;
+}
+.slider{
+    flex: 1;
+    overflow: hidden;
+}
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+.slider--item{
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
